@@ -2,19 +2,21 @@
  (es. "Ciao [nome]") */
 
 const userName = 'Mario';
-const greet = prompt("Fai un saluto:");
+const greet = prompt("Saluto:")
 console.log(greet);
 
+
+
 // Dichiara la funzione qui.
-function greetUserName(greet && Name) {
-    alert(userName);
-    return true;
+function greetName(name) {
+    return `Ciao ${userName} !`;
 }
-
 // Invoca la funzione qui e stampa il risultato in console
+greetName();
+console.log(greetName());
 
-greetUserNameserName();
-console.log(greetUserName);
+
+
 
     
 
